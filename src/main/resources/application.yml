@@ -1,0 +1,4 @@
+
+files.location:
+  passwd: src/test/resources/passwd
+  group: src/test/resources/group
