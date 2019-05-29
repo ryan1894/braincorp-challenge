@@ -25,7 +25,7 @@ For the purposes of this exercise, this seems sufficient. Validation of both fil
 
 `passwd` and `group` file locations are specified in `src/main/resources/application.yml`. This can be overridden when
 packaged in a jar in various methods as described [https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html](here),
-including overriding environment variable `spring.config.location`, or e.g. setting `FILES_LOCATION_PASSWD`.
+including overriding environment variable `spring.config.location`, or e.g. setting environment variable `FILES_LOCATION_PASSWD` and `FILES_LOCATION_GROUP`.
 
 ### Running locally
 
